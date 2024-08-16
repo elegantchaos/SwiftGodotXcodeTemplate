@@ -1,0 +1,14 @@
+[configuration]
+entry_symbol = "swift_entry_point"
+compatibility_minimum = 4.2
+
+
+[libraries]
+macos.debug = "res://bin/libSimpleRunnerDriver.dylib"
+ios.debug = "res://bin/SimpleRunnerDriver.framework"
+ios.release = "res://bin/SimpleRunnerDriver.framework"
+
+[dependencies]
+macos.debug = {"res://bin/libSwiftGodot.dylib" : ""}
+ios.debug = "res://bin/SwiftGodot.framework"
+ios.release = "res://bin/SwiftGodot.framework"
