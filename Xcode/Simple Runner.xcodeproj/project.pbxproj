@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF8DBB11FBA9DE1009DE660 /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */; };
+		22144CBF2C6E6792009C9CC8 /* MoltenVK in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9039D3BD24C093AC0020482C /* MoltenVK */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22144CC02C6E6792009C9CC8 /* Godot.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DEADBEEF1F582BE20003B888 /* Godot.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		221450A12C6E69AB009C9CC8 /* Godot in Resources */ = {isa = PBXBuildFile; fileRef = 221450A02C6E69A3009C9CC8 /* Godot */; };
+		229AB22E2C6F492B00AECA32 /* SimpleRunnerDriver in Frameworks */ = {isa = PBXBuildFile; productRef = 229AB22D2C6F492B00AECA32 /* SimpleRunnerDriver */; };
+		229AB22F2C6F492B00AECA32 /* SimpleRunnerDriver in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 229AB22D2C6F492B00AECA32 /* SimpleRunnerDriver */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9039D3BE24C093AC0020482C /* MoltenVK in Frameworks */ = {isa = PBXBuildFile; fileRef = 9039D3BD24C093AC0020482C /* MoltenVK */; };
+		90DD2D9E24B36E8000717FE1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD2D9D24B36E8000717FE1 /* Launch Screen.storyboard */; };
+		D07CD44E1C5D589C00B7FB28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07CD44D1C5D589C00B7FB28 /* Images.xcassets */; };
+		D0BCFE4618AEBDA2004A7AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */; };
+		DEADBEEF2F582BE20003B888 /* Godot.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEADBEEF1F582BE20003B888 /* Godot.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90A13CD024AA68E500E8464F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				229AB22F2C6F492B00AECA32 /* SimpleRunnerDriver in Embed Frameworks */,
+				22144CBF2C6E6792009C9CC8 /* MoltenVK in Embed Frameworks */,
+				22144CC02C6E6792009C9CC8 /* Godot.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1FF4C1881F584E6300A41E41 /* Simple Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Simple Runner.entitlements"; sourceTree = "<group>"; };
+		1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dummy.cpp; sourceTree = "<group>"; };
+		221450A02C6E69A3009C9CC8 /* Godot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Godot; path = ../Godot; sourceTree = "<group>"; };
+		9039D3BD24C093AC0020482C /* MoltenVK */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MoltenVK; path = MoltenVK.xcframework; sourceTree = "<group>"; };
+		90DD2D9D24B36E8000717FE1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D07CD44D1C5D589C00B7FB28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCFE4318AEBDA2004A7AAE /* Simple Runner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Runner-Info.plist"; sourceTree = "<group>"; };
+		D0BCFE4518AEBDA2004A7AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEADBEEF1F582BE20003B888 /* Godot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Godot.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0BCFE3118AEBDA2004A7AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229AB22E2C6F492B00AECA32 /* SimpleRunnerDriver in Frameworks */,
+				9039D3BE24C093AC0020482C /* MoltenVK in Frameworks */,
+				DEADBEEF2F582BE20003B888 /* Godot.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0BCFE2B18AEBDA2004A7AAE = {
+			isa = PBXGroup;
+			children = (
+				221450A02C6E69A3009C9CC8 /* Godot */,
+				D0BCFE4118AEBDA2004A7AAE /* Shell */,
+				D0BCFE3618AEBDA2004A7AAE /* Frameworks */,
+				D0BCFE3518AEBDA2004A7AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0BCFE3518AEBDA2004A7AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0BCFE3618AEBDA2004A7AAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9039D3BD24C093AC0020482C /* MoltenVK */,
+				DEADBEEF1F582BE20003B888 /* Godot.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0BCFE4118AEBDA2004A7AAE /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				90DD2D9D24B36E8000717FE1 /* Launch Screen.storyboard */,
+				1FF4C1881F584E6300A41E41 /* Simple Runner.entitlements */,
+				D07CD44D1C5D589C00B7FB28 /* Images.xcassets */,
+				D0BCFE4218AEBDA2004A7AAE /* Supporting Files */,
+				1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		D0BCFE4218AEBDA2004A7AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BCFE4318AEBDA2004A7AAE /* Simple Runner-Info.plist */,
+				D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0BCFE3318AEBDA2004A7AAE /* Simple Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BCFE7118AEBDA3004A7AAE /* Build configuration list for PBXNativeTarget "Simple Runner" */;
+			buildPhases = (
+				D0BCFE3018AEBDA2004A7AAE /* Sources */,
+				D0BCFE3118AEBDA2004A7AAE /* Frameworks */,
+				D0BCFE3218AEBDA2004A7AAE /* Resources */,
+				90A13CD024AA68E500E8464F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229AB22C2C6F492200AECA32 /* PBXTargetDependency */,
+			);
+			name = "Simple Runner";
+			productName = "Simple Runner";
+			productReference = D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0BCFE2C18AEBDA2004A7AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1610;
+				ORGANIZATIONNAME = GodotEngine;
+				TargetAttributes = {
+					D0BCFE3318AEBDA2004A7AAE = {
+						DevelopmentTeam = 2H48644JM2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+						};
+					};
+				};
+			};
+			buildConfigurationList = D0BCFE2F18AEBDA2004A7AAE /* Build configuration list for PBXProject "Simple Runner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0BCFE2B18AEBDA2004A7AAE;
+			packageReferences = (
+				221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */,
+			);
+			productRefGroup = D0BCFE3518AEBDA2004A7AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0BCFE3318AEBDA2004A7AAE /* Simple Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0BCFE3218AEBDA2004A7AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221450A12C6E69AB009C9CC8 /* Godot in Resources */,
+				D07CD44E1C5D589C00B7FB28 /* Images.xcassets in Resources */,
+				90DD2D9E24B36E8000717FE1 /* Launch Screen.storyboard in Resources */,
+				D0BCFE4618AEBDA2004A7AAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0BCFE3018AEBDA2004A7AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF8DBB11FBA9DE1009DE660 /* dummy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229AB22C2C6F492200AECA32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 229AB22B2C6F492200AECA32 /* SimpleRunnerDriver */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0BCFE4518AEBDA2004A7AAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0BCFE6F18AEBDA3004A7AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_CLASSIC_1500 = "-ld_classic";
+				LD_CLASSIC_1501 = "-ld_classic";
+				LD_CLASSIC_1510 = "-ld_classic";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(LD_CLASSIC_$(XCODE_VERSION_ACTUAL))",
+					"-Wl,-U,_swift_entry_point",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0BCFE7018AEBDA3004A7AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(PROJECT_DIR)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_CLASSIC_1500 = "-ld_classic";
+				LD_CLASSIC_1501 = "-ld_classic";
+				LD_CLASSIC_1510 = "-ld_classic";
+				OTHER_LDFLAGS = (
+					"$(LD_CLASSIC_$(XCODE_VERSION_ACTUAL))",
+					"-Wl,-U,_swift_entry_point",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0BCFE7218AEBDA3004A7AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Shell/Simple Runner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = 2H48644JM2;
+				EXECUTABLE_NAME = "Simple Runner";
+				INFOPLIST_FILE = "Shell/Simple Runner-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner;
+				PRODUCT_NAME = "Simple Runner";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0BCFE7318AEBDA3004A7AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Shell/Simple Runner.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = 2H48644JM2;
+				EXECUTABLE_NAME = "Simple Runner";
+				INFOPLIST_FILE = "Shell/Simple Runner-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner;
+				PRODUCT_NAME = "Simple Runner";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 x86_64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0BCFE2F18AEBDA2004A7AAE /* Build configuration list for PBXProject "Simple Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCFE6F18AEBDA3004A7AAE /* Debug */,
+				D0BCFE7018AEBDA3004A7AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0BCFE7118AEBDA3004A7AAE /* Build configuration list for PBXNativeTarget "Simple Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BCFE7218AEBDA3004A7AAE /* Debug */,
+				D0BCFE7318AEBDA3004A7AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Swift;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		229AB22B2C6F492200AECA32 /* SimpleRunnerDriver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
+			productName = SimpleRunnerDriver;
+		};
+		229AB22D2C6F492B00AECA32 /* SimpleRunnerDriver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
+			productName = SimpleRunnerDriver;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D0BCFE2C18AEBDA2004A7AAE /* Project object */;
+}
