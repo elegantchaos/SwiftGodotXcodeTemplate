@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
                BuildableName = "Simple Runner.app"
-               BlueprintName = "Simple Runner"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:Simple Runner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +46,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
             BuildableName = "Simple Runner.app"
-            BlueprintName = "Simple Runner"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:Simple Runner.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -69,7 +69,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
             BuildableName = "Simple Runner.app"
-            BlueprintName = "Simple Runner"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:Simple Runner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -86,7 +86,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
             BuildableName = "Simple Runner.app"
-            BlueprintName = "Simple Runner"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:Simple Runner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

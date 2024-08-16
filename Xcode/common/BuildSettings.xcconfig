@@ -1,0 +1,12 @@
+PRODUCT_NAME = Simple Runner                                                                      // your product name here
+PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner                                         // your bundle identifier here
+
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM = 2H48644JM2                                                                     // your team id here
+
+CURRENT_PROJECT_VERSION = 1
+MARKETING_VERSION = 1.0
+
+INFOPLIST_KEY_NSHumanReadableCopyright = Copyright © 2024 Elegant Chaos. All rights reserved.     // your company here
+INFOPLIST_KEY_LSApplicationCategoryType = public.app-category.games
+INFOPLIST_KEY_CFBundleDisplayName = $(PRODUCT_NAME)

@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "22D05AC62C6F5C1600E0463F"
-               BuildableName = "Simple Runner macOS.app"
-               BlueprintName = "Simple Runner macOS"
-               ReferencedContainer = "container:Simple Runner.xcodeproj">
+               BuildableName = ".app"
+               BlueprintName = "macOS"
+               ReferencedContainer = "container:GodotShell.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -59,9 +59,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "22D05AC62C6F5C1600E0463F"
-            BuildableName = "Simple Runner macOS.app"
-            BlueprintName = "Simple Runner macOS"
-            ReferencedContainer = "container:Simple Runner.xcodeproj">
+            BuildableName = "Simple Runner.app"
+            BlueprintName = "macOS"
+            ReferencedContainer = "container:GodotShell.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>

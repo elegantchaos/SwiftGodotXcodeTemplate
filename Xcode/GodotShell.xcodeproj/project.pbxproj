@@ -58,7 +58,8 @@
 		221450A02C6E69A3009C9CC8 /* Godot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Godot; path = ../Godot; sourceTree = "<group>"; };
 		229AB2342C6F52FA00AECA32 /* MoltenVK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MoltenVK.xcframework; sourceTree = "<group>"; };
 		229AB2362C6F52FA00AECA32 /* Godot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Godot.xcframework; sourceTree = "<group>"; };
-		22D05AC72C6F5C1600E0463F /* Simple Runner macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Runner macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D05AC72C6F5C1600E0463F /* Simple Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D05B002C6F738100E0463F /* BuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildSettings.xcconfig; sourceTree = "<group>"; };
 		90DD2D9D24B36E8000717FE1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D07CD44D1C5D589C00B7FB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Runner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				D07CD44D1C5D589C00B7FB28 /* Assets.xcassets */,
+				22D05B002C6F738100E0463F /* BuildSettings.xcconfig */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -125,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */,
-				22D05AC72C6F5C1600E0463F /* Simple Runner macOS.app */,
+				22D05AC72C6F5C1600E0463F /* Simple Runner.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22D05AC62C6F5C1600E0463F /* Simple Runner macOS */ = {
+		22D05AC62C6F5C1600E0463F /* macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22D05AD32C6F5C1700E0463F /* Build configuration list for PBXNativeTarget "Simple Runner macOS" */;
+			buildConfigurationList = 22D05AD32C6F5C1700E0463F /* Build configuration list for PBXNativeTarget "macOS" */;
 			buildPhases = (
 				22D05AC32C6F5C1600E0463F /* Sources */,
 				22D05AC42C6F5C1600E0463F /* Frameworks */,
@@ -163,18 +165,18 @@
 			fileSystemSynchronizedGroups = (
 				22D05AC82C6F5C1600E0463F /* macOS */,
 			);
-			name = "Simple Runner macOS";
+			name = macOS;
 			packageProductDependencies = (
 				22D05AD82C6F64CF00E0463F /* SimpleRunnerDriver */,
 				22D05ADD2C6F688000E0463F /* SwiftGodotKit */,
 			);
 			productName = "Simple Runner macOS";
-			productReference = 22D05AC72C6F5C1600E0463F /* Simple Runner macOS.app */;
+			productReference = 22D05AC72C6F5C1600E0463F /* Simple Runner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D0BCFE3318AEBDA2004A7AAE /* Simple Runner */ = {
+		D0BCFE3318AEBDA2004A7AAE /* iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D0BCFE7118AEBDA3004A7AAE /* Build configuration list for PBXNativeTarget "Simple Runner" */;
+			buildConfigurationList = D0BCFE7118AEBDA3004A7AAE /* Build configuration list for PBXNativeTarget "iOS" */;
 			buildPhases = (
 				D0BCFE3018AEBDA2004A7AAE /* Sources */,
 				D0BCFE3118AEBDA2004A7AAE /* Frameworks */,
@@ -186,7 +188,7 @@
 			dependencies = (
 				229AB22C2C6F492200AECA32 /* PBXTargetDependency */,
 			);
-			name = "Simple Runner";
+			name = iOS;
 			productName = "Simple Runner";
 			productReference = D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */;
 			productType = "com.apple.product-type.application";
@@ -200,7 +202,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
-				ORGANIZATIONNAME = GodotEngine;
+				ORGANIZATIONNAME = "Elegant Chaos";
 				TargetAttributes = {
 					22D05AC62C6F5C1600E0463F = {
 						CreatedOnToolsVersion = 16.1;
@@ -213,8 +215,8 @@
 					};
 				};
 			};
-			buildConfigurationList = D0BCFE2F18AEBDA2004A7AAE /* Build configuration list for PBXProject "Simple Runner" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = D0BCFE2F18AEBDA2004A7AAE /* Build configuration list for PBXProject "GodotShell" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -230,8 +232,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D0BCFE3318AEBDA2004A7AAE /* Simple Runner */,
-				22D05AC62C6F5C1600E0463F /* Simple Runner macOS */,
+				D0BCFE3318AEBDA2004A7AAE /* iOS */,
+				22D05AC62C6F5C1600E0463F /* macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +305,7 @@
 		22D05AD42C6F5C1700E0463F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-macOS";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -312,13 +314,9 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "Simple Runner macOS/Simple_Runner_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = macOS/Entitlements.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_ASSET_PATHS = "\"Simple Runner macOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 2H48644JM2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
@@ -328,20 +326,15 @@
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 GodotEngine. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Elegant Chaos. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
-				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.elegantchaos.Simple-Runner-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -353,7 +346,7 @@
 		22D05AD52C6F5C1700E0463F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-macOS";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -362,33 +355,24 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = "Simple Runner macOS/Simple_Runner_macOS.entitlements";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = macOS/Entitlements.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_ASSET_PATHS = "\"Simple Runner macOS/Preview Content\"";
-				DEVELOPMENT_TEAM = 2H48644JM2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 GodotEngine. All rights reserved.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Elegant Chaos. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
-				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.elegantchaos.Simple-Runner-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -398,6 +382,7 @@
 		};
 		D0BCFE6F18AEBDA3004A7AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D05B002C6F738100E0463F /* BuildSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -460,6 +445,7 @@
 		};
 		D0BCFE7018AEBDA3004A7AAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22D05B002C6F738100E0463F /* BuildSettings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -523,10 +509,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/Entitlements.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEVELOPMENT_TEAM = 2H48644JM2;
 				EXECUTABLE_NAME = "Simple Runner";
 				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
@@ -539,9 +522,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
 				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner;
-				PRODUCT_NAME = "Simple Runner";
 				PROVISIONING_PROFILE = "";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -560,10 +540,7 @@
 				CODE_SIGN_ENTITLEMENTS = iOS/Entitlements.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEVELOPMENT_TEAM = 2H48644JM2;
 				EXECUTABLE_NAME = "Simple Runner";
 				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "$(PRODUCT_NAME)";
@@ -576,9 +553,6 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/**",
 				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner;
-				PRODUCT_NAME = "Simple Runner";
 				PROVISIONING_PROFILE = "";
 				REGISTER_APP_GROUPS = NO;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -593,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22D05AD32C6F5C1700E0463F /* Build configuration list for PBXNativeTarget "Simple Runner macOS" */ = {
+		22D05AD32C6F5C1700E0463F /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22D05AD42C6F5C1700E0463F /* Debug */,
@@ -602,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D0BCFE2F18AEBDA2004A7AAE /* Build configuration list for PBXProject "Simple Runner" */ = {
+		D0BCFE2F18AEBDA2004A7AAE /* Build configuration list for PBXProject "GodotShell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0BCFE6F18AEBDA3004A7AAE /* Debug */,
@@ -611,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D0BCFE7118AEBDA3004A7AAE /* Build configuration list for PBXNativeTarget "Simple Runner" */ = {
+		D0BCFE7118AEBDA3004A7AAE /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D0BCFE7218AEBDA3004A7AAE /* Debug */,
