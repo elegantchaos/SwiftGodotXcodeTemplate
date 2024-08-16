@@ -31,9 +31,19 @@ The `godot_path` entry in the `Simple Runner-Info.plist` file is set to `Godot` 
 
 Two other frameworks are referenced by the Xcode project, but are too large to commit to Git:
 
-- MoltenVK
-- Godot
+- MoltenVK.xcframework
+- Godot.xcframework
 
 Up to date copies of these can be obtained by running an iOS export from within Godot, into a temporary location.
 
 For your own project you should also be able to set things up so that they are built from source by Xcode as part of the overall build, or you could add a build phase to copy them in from a known location on your local machine.
+
+### Targetted Platforms
+
+This initial project works for a physical iOS device.
+
+In theory it should also be possible to set it up to work for the simulator, and for macOS. 
+
+Xcode will build the correct versions of your SwiftGodot code, and of the SwiftGodot package itself. 
+
+It will however need to have the correct architectures present in the MoltenVK.xcframework and the Godot.xcframework. This should be possible but I haven't quite figured it out yet.
