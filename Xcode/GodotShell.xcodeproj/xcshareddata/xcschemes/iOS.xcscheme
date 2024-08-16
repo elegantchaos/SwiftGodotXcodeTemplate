@@ -70,9 +70,18 @@
             BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
             BuildableName = "Simple Runner.app"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:Simple Runner.xcodeproj">
+            ReferencedContainer = "container:GodotShell.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
+            BuildableName = "Simple Runner.app"
+            BlueprintName = "iOS"
+            ReferencedContainer = "container:Simple Runner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Debug"
@@ -90,6 +99,15 @@
             ReferencedContainer = "container:Simple Runner.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D0BCFE3318AEBDA2004A7AAE"
+            BuildableName = "Simple Runner.app"
+            BlueprintName = "iOS"
+            ReferencedContainer = "container:Simple Runner.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
