@@ -7,7 +7,7 @@
 import SwiftGodot
 
 @Godot
-class PlayerController: CharacterBody2D {
+public class PlayerController: CharacterBody2D {
     var acceleration: Float = 100
     var friction: Double = 100
     var speed: Double = 200
@@ -21,7 +21,7 @@ class PlayerController: CharacterBody2D {
     }
     
     
-    override func _physicsProcess(delta: Double) {
+    public override func _physicsProcess(delta: Double) {
         if Engine.isEditorHint() { return }
         if movementVector != .zero {
             let acceleratedVector = Vector2(x: acceleration, y: acceleration)

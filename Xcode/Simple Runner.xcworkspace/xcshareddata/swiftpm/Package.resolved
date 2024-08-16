@@ -1,5 +1,5 @@
 {
-  "originHash" : "b70ca15ec3363f788f59e30cd31eae379ceae4586f26ac15931c3be6e040ee84",
+  "originHash" : "6ed6d4e892b0575db5dbbc42409b77ff4e716245762c3cce0864cbe21a2b90f9",
   "pins" : [
     {
       "identity" : "swift-syntax",
@@ -17,6 +17,15 @@
       "state" : {
         "branch" : "dev",
         "revision" : "948f37eeb39c33f4c82800f1b7d874b3971a9ac0"
+      }
+    },
+    {
+      "identity" : "swiftgodotkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/elegantchaos/SwiftGodotKit",
+      "state" : {
+        "branch" : "dev",
+        "revision" : "9aa6ba4059f5722b169c14429808da61de1b8a6e"
       }
     }
   ],

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,32 +11,27 @@
 		221450A12C6E69AB009C9CC8 /* Godot in Resources */ = {isa = PBXBuildFile; fileRef = 221450A02C6E69A3009C9CC8 /* Godot */; };
 		224F949A2C6F5396006059C7 /* MoltenVK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 229AB2342C6F52FA00AECA32 /* MoltenVK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		224F949B2C6F5396006059C7 /* Godot.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 229AB2362C6F52FA00AECA32 /* Godot.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		224F94A02C6F5452006059C7 /* dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */; };
-		224F94A62C6F5452006059C7 /* Godot in Resources */ = {isa = PBXBuildFile; fileRef = 221450A02C6E69A3009C9CC8 /* Godot */; };
-		224F94A72C6F5452006059C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07CD44D1C5D589C00B7FB28 /* Images.xcassets */; };
-		224F94A92C6F5452006059C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */; };
-		224F94B62C6F54E4006059C7 /* SimpleRunnerDriver in Frameworks */ = {isa = PBXBuildFile; productRef = 224F94B52C6F54E4006059C7 /* SimpleRunnerDriver */; };
-		224F94B72C6F54E4006059C7 /* SimpleRunnerDriver in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 224F94B52C6F54E4006059C7 /* SimpleRunnerDriver */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		22770D092C6F56FD00701405 /* libGodot.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229AB2382C6F52FA00AECA32 /* libGodot.xcframework */; };
-		22770D0A2C6F570400701405 /* libGodot.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 229AB2382C6F52FA00AECA32 /* libGodot.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		229AB22E2C6F492B00AECA32 /* SimpleRunnerDriver in Frameworks */ = {isa = PBXBuildFile; productRef = 229AB22D2C6F492B00AECA32 /* SimpleRunnerDriver */; };
 		229AB22F2C6F492B00AECA32 /* SimpleRunnerDriver in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 229AB22D2C6F492B00AECA32 /* SimpleRunnerDriver */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		229AB23B2C6F52FA00AECA32 /* MoltenVK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229AB2342C6F52FA00AECA32 /* MoltenVK.xcframework */; };
 		229AB23C2C6F52FA00AECA32 /* Godot.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229AB2362C6F52FA00AECA32 /* Godot.xcframework */; };
+		22D05AD92C6F64CF00E0463F /* SimpleRunnerDriver in Frameworks */ = {isa = PBXBuildFile; productRef = 22D05AD82C6F64CF00E0463F /* SimpleRunnerDriver */; };
+		22D05ADB2C6F64CF00E0463F /* SimpleRunnerDriver in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 22D05AD82C6F64CF00E0463F /* SimpleRunnerDriver */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		22D05ADE2C6F688000E0463F /* SwiftGodotKit in Frameworks */ = {isa = PBXBuildFile; productRef = 22D05ADD2C6F688000E0463F /* SwiftGodotKit */; };
+		22D05AE92C6F6B1300E0463F /* Godot in Resources */ = {isa = PBXBuildFile; fileRef = 221450A02C6E69A3009C9CC8 /* Godot */; };
 		90DD2D9E24B36E8000717FE1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DD2D9D24B36E8000717FE1 /* Launch Screen.storyboard */; };
 		D07CD44E1C5D589C00B7FB28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07CD44D1C5D589C00B7FB28 /* Images.xcassets */; };
 		D0BCFE4618AEBDA2004A7AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		224F94AA2C6F5452006059C7 /* Embed Frameworks */ = {
+		22D05ADA2C6F64CF00E0463F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				22770D0A2C6F570400701405 /* libGodot.xcframework in Embed Frameworks */,
-				224F94B72C6F54E4006059C7 /* SimpleRunnerDriver in Embed Frameworks */,
+				22D05ADB2C6F64CF00E0463F /* SimpleRunnerDriver in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,11 +55,9 @@
 		1FF4C1881F584E6300A41E41 /* Simple Runner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Simple Runner.entitlements"; sourceTree = "<group>"; };
 		1FF8DBB01FBA9DE1009DE660 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dummy.cpp; sourceTree = "<group>"; };
 		221450A02C6E69A3009C9CC8 /* Godot */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Godot; path = ../Godot; sourceTree = "<group>"; };
-		224F94B22C6F5452006059C7 /* Simple Runner mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Runner mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		224F94B32C6F5452006059C7 /* Simple Runner mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple Runner mac-Info.plist"; path = "/Users/sam/Developer/Projects/Godot/Examples/Template/Xcode/Shell/Simple Runner mac-Info.plist"; sourceTree = "<absolute>"; };
 		229AB2342C6F52FA00AECA32 /* MoltenVK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MoltenVK.xcframework; sourceTree = "<group>"; };
 		229AB2362C6F52FA00AECA32 /* Godot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Godot.xcframework; sourceTree = "<group>"; };
-		229AB2382C6F52FA00AECA32 /* libGodot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = libGodot.xcframework; sourceTree = "<group>"; };
+		229AB2382C6F52FA00AECA32 /* Godot.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Godot.xcframework; sourceTree = "<group>"; };
 		22D05AC72C6F5C1600E0463F /* Simple Runner macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Runner macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DD2D9D24B36E8000717FE1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		D07CD44D1C5D589C00B7FB28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -78,19 +71,12 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		224F94A12C6F5452006059C7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				224F94B62C6F54E4006059C7 /* SimpleRunnerDriver in Frameworks */,
-				22770D092C6F56FD00701405 /* libGodot.xcframework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		22D05AC42C6F5C1600E0463F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D05AD92C6F64CF00E0463F /* SimpleRunnerDriver in Frameworks */,
+				22D05ADE2C6F688000E0463F /* SwiftGodotKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +112,7 @@
 		229AB2392C6F52FA00AECA32 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				229AB2382C6F52FA00AECA32 /* libGodot.xcframework */,
+				229AB2382C6F52FA00AECA32 /* Godot.xcframework */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -156,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				D0BCFE3418AEBDA2004A7AAE /* Simple Runner.app */,
-				224F94B22C6F5452006059C7 /* Simple Runner mac.app */,
 				22D05AC72C6F5C1600E0463F /* Simple Runner macOS.app */,
 			);
 			name = Products;
@@ -178,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				D0BCFE4318AEBDA2004A7AAE /* Simple Runner-Info.plist */,
-				224F94B32C6F5452006059C7 /* Simple Runner mac-Info.plist */,
 				D0BCFE4418AEBDA2004A7AAE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -187,25 +171,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		224F949D2C6F5452006059C7 /* Simple Runner mac */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 224F94AF2C6F5452006059C7 /* Build configuration list for PBXNativeTarget "Simple Runner mac" */;
-			buildPhases = (
-				224F949F2C6F5452006059C7 /* Sources */,
-				224F94A12C6F5452006059C7 /* Frameworks */,
-				224F94A52C6F5452006059C7 /* Resources */,
-				224F94AA2C6F5452006059C7 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				224F949E2C6F5452006059C7 /* PBXTargetDependency */,
-			);
-			name = "Simple Runner mac";
-			productName = "Simple Runner";
-			productReference = 224F94B22C6F5452006059C7 /* Simple Runner mac.app */;
-			productType = "com.apple.product-type.application";
-		};
 		22D05AC62C6F5C1600E0463F /* Simple Runner macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22D05AD32C6F5C1700E0463F /* Build configuration list for PBXNativeTarget "Simple Runner macOS" */;
@@ -213,16 +178,20 @@
 				22D05AC32C6F5C1600E0463F /* Sources */,
 				22D05AC42C6F5C1600E0463F /* Frameworks */,
 				22D05AC52C6F5C1600E0463F /* Resources */,
+				22D05ADA2C6F64CF00E0463F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				22D05AD72C6F64C600E0463F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				22D05AC82C6F5C1600E0463F /* Simple Runner macOS */,
 			);
 			name = "Simple Runner macOS";
 			packageProductDependencies = (
+				22D05AD82C6F64CF00E0463F /* SimpleRunnerDriver */,
+				22D05ADD2C6F688000E0463F /* SwiftGodotKit */,
 			);
 			productName = "Simple Runner macOS";
 			productReference = 22D05AC72C6F5C1600E0463F /* Simple Runner macOS.app */;
@@ -280,33 +249,24 @@
 			mainGroup = D0BCFE2B18AEBDA2004A7AAE;
 			packageReferences = (
 				221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */,
+				22D05ADC2C6F688000E0463F /* XCRemoteSwiftPackageReference "SwiftGodotKit" */,
 			);
 			productRefGroup = D0BCFE3518AEBDA2004A7AAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D0BCFE3318AEBDA2004A7AAE /* Simple Runner */,
-				224F949D2C6F5452006059C7 /* Simple Runner mac */,
 				22D05AC62C6F5C1600E0463F /* Simple Runner macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		224F94A52C6F5452006059C7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				224F94A62C6F5452006059C7 /* Godot in Resources */,
-				224F94A72C6F5452006059C7 /* Images.xcassets in Resources */,
-				224F94A92C6F5452006059C7 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		22D05AC52C6F5C1600E0463F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D05AE92C6F6B1300E0463F /* Godot in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +284,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		224F949F2C6F5452006059C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				224F94A02C6F5452006059C7 /* dummy.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		22D05AC32C6F5C1600E0463F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,13 +302,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		224F949E2C6F5452006059C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			productRef = 229AB22B2C6F492200AECA32 /* SimpleRunnerDriver */;
-		};
 		229AB22C2C6F492200AECA32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			productRef = 229AB22B2C6F492200AECA32 /* SimpleRunnerDriver */;
+		};
+		22D05AD72C6F64C600E0463F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 22D05AD62C6F64C600E0463F /* SimpleRunnerDriver */;
 		};
 /* End PBXTargetDependency section */
 
@@ -372,74 +324,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		224F94B02C6F5452006059C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Shell/Simple Runner.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEVELOPMENT_TEAM = 2H48644JM2;
-				EXECUTABLE_NAME = "Simple Runner";
-				INFOPLIST_FILE = "Simple Runner mac-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/**",
-				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				VALID_ARCHS = "arm64 x86_64";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		224F94B12C6F5452006059C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Shell/Simple Runner.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				CURRENT_PROJECT_VERSION = 1.0.0;
-				DEVELOPMENT_TEAM = 2H48644JM2;
-				EXECUTABLE_NAME = "Simple Runner";
-				INFOPLIST_FILE = "Simple Runner mac-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/**",
-				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.simplerunner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				REGISTER_APP_GROUPS = NO;
-				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				VALID_ARCHS = "arm64 x86_64";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		22D05AD42C6F5C1700E0463F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -468,6 +352,8 @@
 				);
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 GodotEngine. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -513,6 +399,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Runner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 GodotEngine. All rights reserved.";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -729,15 +617,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		224F94AF2C6F5452006059C7 /* Build configuration list for PBXNativeTarget "Simple Runner mac" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				224F94B02C6F5452006059C7 /* Debug */,
-				224F94B12C6F5452006059C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		22D05AD32C6F5C1700E0463F /* Build configuration list for PBXNativeTarget "Simple Runner macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -774,12 +653,18 @@
 		};
 /* End XCLocalSwiftPackageReference section */
 
-/* Begin XCSwiftPackageProductDependency section */
-		224F94B52C6F54E4006059C7 /* SimpleRunnerDriver */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
-			productName = SimpleRunnerDriver;
+/* Begin XCRemoteSwiftPackageReference section */
+		22D05ADC2C6F688000E0463F /* XCRemoteSwiftPackageReference "SwiftGodotKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elegantchaos/SwiftGodotKit";
+			requirement = {
+				branch = dev;
+				kind = branch;
+			};
 		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
 		229AB22B2C6F492200AECA32 /* SimpleRunnerDriver */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
@@ -789,6 +674,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
 			productName = SimpleRunnerDriver;
+		};
+		22D05AD62C6F64C600E0463F /* SimpleRunnerDriver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
+			productName = SimpleRunnerDriver;
+		};
+		22D05AD82C6F64CF00E0463F /* SimpleRunnerDriver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221450BA2C6F46F5009C9CC8 /* XCLocalSwiftPackageReference "../Swift" */;
+			productName = SimpleRunnerDriver;
+		};
+		22D05ADD2C6F688000E0463F /* SwiftGodotKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 22D05ADC2C6F688000E0463F /* XCRemoteSwiftPackageReference "SwiftGodotKit" */;
+			productName = SwiftGodotKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

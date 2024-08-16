@@ -29,9 +29,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "224F949D2C6F5452006059C7"
-               BuildableName = "Simple Runner mac.app"
-               BlueprintName = "Simple Runner mac"
+               BlueprintIdentifier = "22D05AC62C6F5C1600E0463F"
+               BuildableName = "Simple Runner macOS.app"
+               BlueprintName = "Simple Runner macOS"
                ReferencedContainer = "container:Simple Runner.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,6 +54,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "22D05AC62C6F5C1600E0463F"
+            BuildableName = "Simple Runner macOS.app"
+            BlueprintName = "Simple Runner macOS"
+            ReferencedContainer = "container:Simple Runner.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
