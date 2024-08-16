@@ -40,10 +40,10 @@ For your own project you should also be able to set things up so that they are b
 
 ### Targetted Platforms
 
-This initial project works for a physical iOS device.
+This initial project contains two targets.
 
-In theory it should also be possible to set it up to work for the simulator, and for macOS. 
+One works for a physical iOS device. In theory it should also be possible to set it up to work for the simulator, but I haven't quite figured it out yet -- it will need to have the correct architectures present in the MoltenVK.xcframework and the Godot.xcframework.
 
-Xcode will build the correct versions of your SwiftGodot code, and of the SwiftGodot package itself. 
+The other works for macOS, using SwiftGodotKit.
 
-It will however need to have the correct architectures present in the MoltenVK.xcframework and the Godot.xcframework. This should be possible but I haven't quite figured it out yet.
+In both cases, Xcode will build the correct versions of your SwiftGodot code, and of the SwiftGodot package itself. 
